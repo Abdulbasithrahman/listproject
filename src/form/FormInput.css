@@ -37,6 +37,10 @@ input:invalid[focus="true"]~span {
         padding: 3px;
         display: none;
     }
+    input{
+        padding: 4%;
+        font-size: 12px;
+    }
     .label {
         font-size: 12px;
         font-weight: 800;

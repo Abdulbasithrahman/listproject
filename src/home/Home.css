@@ -2,6 +2,7 @@
     color: white;
     font-weight: 700;
     font-size: 28px;
+    margin: 0 5%;
 }
 .navbox{
     border:1px solid white
@@ -23,7 +24,11 @@
     background-color: lightblue;
     border-radius: 40px;
     padding: 1% 0;
-    box-shadow: 2px ;
+    box-shadow:5px 5px lightskyblue;
+    animation: slidein 3s;
+}
+.main:hover{
+    background-color: aliceblue;
 }
 .load-feedback{
     color: white;
@@ -52,3 +57,13 @@
         font-size: 20px;
     }
 }
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 0%;
+    }
+    to {
+      margin-right: 50%;
+      width: 50%;
+    }
+  }
