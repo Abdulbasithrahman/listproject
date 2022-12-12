@@ -1,0 +1,46 @@
+input {
+    padding: 4%;
+    border-radius: 5px;
+    margin: 10px 0px;
+    width:100%;
+    border: 1px solid gray;
+}
+
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5% 2%;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 800;
+    color: #34568B;
+    letter-spacing: 1px;
+}
+span {
+    color: red;
+    font-size: 13px;
+    padding: 3px;
+    display: none;
+}
+
+input:invalid[focus="true"]~span {
+    display: block;
+}
+@media screen and (max-width:500px) {
+    span {
+        color: red;
+        font-size: 9px;
+        padding: 3px;
+        display: none;
+    }
+    .label {
+        font-size: 12px;
+        font-weight: 800;
+        color: #34568B;
+        letter-spacing: 1px;
+    }
+}

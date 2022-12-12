@@ -1,0 +1,45 @@
+.signin {
+    margin:5% 30%;
+    padding: 1%;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5FFFA;
+    border-radius: 10px;
+}
+.form{
+    width: 90%;
+    height: 100%;
+}
+.header-letter {
+    color: #34568B;
+    font-weight: 900; 
+}
+.bottom {
+    padding: 10px 15px;
+}
+.signup-submit {
+    width: 97%;
+    margin: 4% 2%;
+    height: 7vh;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius:5px ;
+}
+@media screen and (max-width:500px){
+ .signin{
+    margin: 15% 15%;
+    width: 65%;
+ }   
+ .header-letter {
+    font-size: 20px; 
+}
+.signup-submit {
+    font-size: 15px;
+    height: 6vh;
+}
+}
